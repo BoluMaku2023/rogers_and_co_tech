@@ -49,8 +49,8 @@ const Software = () => {
             <div className="flexColStart hero-des">
               <span>
                 We develop tailored, complex web applications and systems in the
-                form of applications, online services, apps, intranets and
-                extranets.
+                form<br></br> of applications, online services, apps, intranets
+                and extranets.
               </span>
             </div>
           </div>

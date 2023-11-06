@@ -165,6 +165,32 @@ const Home = () => {
           </div>
         </section>
         <section className="hero2-wrapper">
+          {/* <div onClick={scrollToBottom} className="arrow-container">
+            <div className="arrow-down-n">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="46"
+                height="46"
+                viewBox="0 0 46 46"
+                fill="none"
+              >
+                <path
+                  d="M23 7.21741V38.7826"
+                  stroke="black"
+                  stroke-width="2.17284"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10.0869 25.8696L23 38.7826L35.913 25.8696"
+                  stroke="black"
+                  stroke-width="2.17284"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div> */}
           <div className="hero-video">
             <video
               src="./rogervid.mp4"
@@ -174,11 +200,6 @@ const Home = () => {
               autoPlay="autoplay"
             />
           </div>
-          {/* <div onClick={scrollToBottom} className="arrow-container">
-            <div className="arrow-down">
-              <img src="./arrow-down.png" alt="" />
-            </div>
-          </div> */}
         </section>
         <section className="a-wrapper">
           <div className="div-wrapper">
@@ -259,7 +280,7 @@ const Home = () => {
               </div>
               <div className="servee">
                 <img src="./service4.png" alt="Services" />
-                <h3>Software Engineering</h3>
+                <h3>Security and Surveillance Engineering</h3>
               </div>
               <div className="servee">
                 <img src="./service5.png" alt="Services" />

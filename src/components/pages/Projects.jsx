@@ -61,9 +61,10 @@ const Projects = () => {
               <h1>A selection of our clients</h1>
             </div>
 
-            <div className="flexColStart hero-des">
+            <div className="hero-des">
               <span>
-                Over the years, we have solved a sea of ​​different challenges
+                Over the years, we have solved a sea of ​​different challenges{" "}
+                <br></br>
                 in collaboration with our customers, which have produced
                 noticeable results
               </span>
@@ -75,9 +76,28 @@ const Projects = () => {
       <Fade bottom left={1000}>
         <div className="case-link-box3">
           <div className="arrow-container-pr" onClick={goBack}>
-            <div className="arrow-down">
-              <img src="./arrow-back.png" alt="" />
-            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="46"
+              height="46"
+              viewBox="0 0 46 46"
+              fill="none"
+            >
+              <path
+                d="M23 7.21741V38.7826"
+                stroke="black"
+                stroke-width="2.17284"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M10.0869 25.8696L23 38.7826L35.913 25.8696"
+                stroke="black"
+                stroke-width="2.17284"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </div>
         </div>
       </Fade>

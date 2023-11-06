@@ -24,13 +24,20 @@
   overflow-x: hidden;
 }
 .arrow-container-pr {
-  background-color: white;
-  overflow: hidden;
-  padding: 0px;
-  cursor: pointer;
+  display: inline-flex;
+  padding: 21.043px;
   justify-content: center;
   align-items: center;
-  align-self: flex-start;
+  gap: 15.304px;
+  margin-left: 20px;
+  margin-top: 40px;
+  cursor: pointer;
+  background: #fc0;
+}
+.arrow-container-pr > svg {
+  width: 45.913px;
+  height: 45.913px;
+  transform: rotate(90deg);
 }
 .h-menu {
   gap: 3rem;

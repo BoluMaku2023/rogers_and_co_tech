@@ -104,7 +104,6 @@ const Projects = () => {
       <section className="case-section-pr">
         <div className="cases-contain-p">
           <Fade bottom>
-            9b
             <div className="p-case-title">
               <h1>Software</h1>
             </div>
@@ -221,7 +220,9 @@ const Projects = () => {
             </div>
           </div>
 
-          <span className="hd-span">Hardware</span>
+          <div className="p-case-title">
+            <h1>Hardware</h1>
+          </div>
 
           <div className="cases-p">
             <div className="hover01 column">

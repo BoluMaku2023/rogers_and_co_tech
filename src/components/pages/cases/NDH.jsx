@@ -77,12 +77,31 @@ const NDH = () => {
           {/*right side*/}
         </div>
       </section>
-      <section className="hero2-wrapper">
+      <section className="hero2-wrapper-new">
         <Fade left delay={1000}>
           <div className="arrow-container" onClick={goBack}>
-            <div className="arrow-down-pd">
-              <img src="./arrow-down.png" alt="" />
-            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="46"
+              height="46"
+              viewBox="0 0 46 46"
+              fill="none"
+            >
+              <path
+                d="M23 7.21741V38.7826"
+                stroke="black"
+                stroke-width="2.17284"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M10.0869 25.8696L23 38.7826L35.913 25.8696"
+                stroke="black"
+                stroke-width="2.17284"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </div>
         </Fade>
         <div ref={(el) => (containerr = el)} className="containerr">

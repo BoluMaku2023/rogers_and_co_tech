@@ -266,26 +266,36 @@ const Home = () => {
               </Fade>
             </div>
             <div className="our-services">
-              <div className="servee">
-                <img src="./service1.png" alt="Services" />
-                <h3>Design Solutions</h3>
-              </div>
-              <div className="servee">
-                <img src="./service2.png" alt="Services" />
-                <h3>Product Development</h3>
-              </div>
-              <div className="servee">
-                <img src="./service3.png" alt="Services" />
-                <h3>Software Engineering</h3>
-              </div>
-              <div className="servee">
-                <img src="./service4.png" alt="Services" />
-                <h3>Security and Surveillance Engineering</h3>
-              </div>
-              <div className="servee">
-                <img src="./service5.png" alt="Services" />
-                <h3>Renewable energy</h3>
-              </div>
+              <Fade bottom>
+                <div className="servee">
+                  <img src="./service1.png" alt="Services" />
+                  <h3>Design Solutions</h3>
+                </div>
+              </Fade>
+              <Fade bottom delay={50}>
+                <div className="servee">
+                  <img src="./service2.png" alt="Services" />
+                  <h3>Product Development</h3>
+                </div>
+              </Fade>
+              <Fade bottom delay={100}>
+                <div className="servee">
+                  <img src="./service3.png" alt="Services" />
+                  <h3>Software Engineering</h3>
+                </div>
+              </Fade>
+              <Fade bottom delay={150}>
+                <div className="servee">
+                  <img src="./service4.png" alt="Services" />
+                  <h3>Security and Surveillance Engineering</h3>
+                </div>
+              </Fade>
+              <Fade bottom>
+                <div className="servee">
+                  <img src="./service5.png" alt="Services" />
+                  <h3>Renewable energy</h3>
+                </div>
+              </Fade>
             </div>
           </div>
           <Fade bottom>

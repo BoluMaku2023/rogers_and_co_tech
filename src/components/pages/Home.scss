@@ -199,16 +199,17 @@
   display: flex;
   flex-wrap: wrap;
   row-gap: 40px;
-  float: left;
   overflow: hidden;
   margin-bottom: 30px;
   width: 100vw;
+  padding-left: 5%;
+  align-items: center;
   height: 100%;
 }
 .column .containing {
   position: relative;
   float: left;
-  width: calc(90% / 3);
+  width: calc(100% / 3);
   margin: 0 0 0 0px;
   cursor: pointer;
   padding: 0;
@@ -405,6 +406,7 @@ button {
   .column {
     overflow: hidden;
     width: 100vw;
+    padding-left: 0px;
     row-gap: 20px;
   }
   .column div > h3 {

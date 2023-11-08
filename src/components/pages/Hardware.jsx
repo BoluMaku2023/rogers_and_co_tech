@@ -35,7 +35,7 @@ const Hardware = () => {
               <h1>Hardware</h1>
             </div>
 
-            <div className="flexColStart hero-des">
+            <div className="hero-des">
               <span>
                 We develop tailored, complex web applications and systems in the
                 form of applications, online services, apps, intranets and
@@ -46,12 +46,31 @@ const Hardware = () => {
           {/*right side*/}
         </div>
       </section>
-      <section className="hero2-wrapper">
+      <section className="hero2-wrapper-new">
         <Fade left>
           <div className="arrow-container" onClick={scrollToBottom}>
-            <div className="arrow-down">
-              <img src="./arrow-down.png" alt="" />
-            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="46"
+              height="46"
+              viewBox="0 0 46 46"
+              fill="none"
+            >
+              <path
+                d="M23 7.21741V38.7826"
+                stroke="black"
+                stroke-width="2.17284"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M10.0869 25.8696L23 38.7826L35.913 25.8696"
+                stroke="black"
+                stroke-width="2.17284"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </div>
         </Fade>
         <div className="a-hero-video">
@@ -148,13 +167,6 @@ const Hardware = () => {
         </div>
       </section>
       <section className="case-section">
-        <Fade left delay={1000}>
-          <div className="arrow-container">
-            <div className="arrow-down">
-              <img src="./arrow-down.png" alt="" />
-            </div>
-          </div>
-        </Fade>
         <div className="cases-contain">
           <div className="cases">
             <div className="hover01 column">

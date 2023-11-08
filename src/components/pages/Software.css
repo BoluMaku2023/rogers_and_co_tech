@@ -2,7 +2,15 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.hero2-wrapper-new {
+  color: white;
 
+  background-color: #f0f0f0;
+  margin-top: 2rem;
+  width: 100vw;
+  align-items: flex-start;
+  display: inline-flex;
+}
 .hero3-wrapper {
   color: white;
   position: relative;

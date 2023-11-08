@@ -15,7 +15,12 @@ const navLinks = [
 ];
 const Header = () => {
   const { ref: myRef, inView: isVisible } = useInView();
-
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth",
+    });
+  };
   const [open, setOpen] = useState(false);
   const toggleMenu = () => {
     setOpen((prevOpen) => !prevOpen);
@@ -87,7 +92,8 @@ const Header = () => {
       <section className="header-wrapper">
         <div className="top-barr">
           <h3>
-            Talk to us about a project <span>here</span>
+            Talk to us about a project{" "}
+            <span onClick={scrollToBottom}>here</span>
           </h3>
         </div>
         <div ref={myRef} className="container">

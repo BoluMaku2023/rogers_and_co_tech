@@ -199,6 +199,7 @@
   align-items: flex-start;
   background-color: #fff;
   display: flex;
+  margin-bottom: 20px;
   flex-direction: column;
 }
 @media (min-width: 320px) and (max-width: 500px) {
@@ -270,5 +271,15 @@
 
   .case-section-pr {
     margin-left: 0rem;
+  }
+  .case-link-box3 {
+    display: none;
+  }
+  .column .containing-p > h2 {
+    margin-top: 1rem;
+    margin-left: 5%;
+  }
+  .column .containing-p > h3 {
+    margin-left: 5%;
   }
 }

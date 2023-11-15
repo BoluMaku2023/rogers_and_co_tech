@@ -79,7 +79,9 @@ const Home = () => {
         <section className="hero-wrapper">
           <div className="hero-container">
             <div className="hero-title">
-              <h1>Shaping the Future through</h1>
+              <h1 className="text-black text-[78px]">
+                Shaping the Future through
+              </h1>
               <h1>
                 <span> Technology</span> and <span>Innovation</span>
               </h1>
@@ -268,32 +270,57 @@ const Home = () => {
             <div className="our-services">
               <Fade bottom>
                 <div className="servee">
-                  <img src="./service1.png" alt="Services" />
-                  <h3>Design Solutions</h3>
+                  <Link
+                    to="/software-design"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <img src="./service1.png" alt="Services" />
+                    <h3>Design Solutions</h3>
+                  </Link>
                 </div>
               </Fade>
               <Fade bottom delay={50}>
                 <div className="servee">
-                  <img src="./service2.png" alt="Services" />
-                  <h3>Product Development</h3>
+                  <Link
+                    to="/software-product"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <img src="./service2.png" alt="Services" />
+                    <h3>Product Development</h3>
+                  </Link>
                 </div>
               </Fade>
               <Fade bottom delay={100}>
                 <div className="servee">
-                  <img src="./service3.png" alt="Services" />
-                  <h3>Software Engineering</h3>
+                  <Link
+                    to="/software-softwaredev"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <img src="./service3.png" alt="Services" />
+                    <h3>Software Engineering</h3>
+                  </Link>
                 </div>
               </Fade>
               <Fade bottom delay={150}>
                 <div className="servee">
-                  <img src="./service4.png" alt="Services" />
-                  <h3>Security and Surveillance Engineering</h3>
+                  <Link
+                    to="/hardware-security"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <img src="./service4.png" alt="Services" />
+                    <h3>Security and Surveillance Engineering</h3>
+                  </Link>
                 </div>
               </Fade>
               <Fade bottom>
                 <div className="servee">
-                  <img src="./service5.png" alt="Services" />
-                  <h3>Renewable energy</h3>
+                  <Link
+                    to="/hardware-renewable-energy"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <img src="./service5.png" alt="Services" />
+                    <h3>Renewable energy</h3>
+                  </Link>
                 </div>
               </Fade>
             </div>

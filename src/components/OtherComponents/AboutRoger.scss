@@ -257,18 +257,23 @@
     width: calc(90% / 3);
     gap: 20px;
     align-items: center;
-    img {
-      width: 100%;
-      height: auto;
-    }
-    h3 {
-      color: var(--Gray-2, #4f4f4f);
-      text-align: center;
-      font-family: Inter;
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
+    a {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      img {
+        width: 100%;
+        height: auto;
+      }
+      h3 {
+        color: var(--Gray-2, #4f4f4f);
+        text-align: center;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
     }
   }
 }

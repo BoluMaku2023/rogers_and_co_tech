@@ -190,11 +190,6 @@ const SoftwareDev = () => {
       </section>
       <Fade bottom>
         <section className="case-section">
-          <div className="arrow-container">
-            <div className="arrow-down">
-              <img src="./arrow-down.png" alt="" />
-            </div>
-          </div>
           <div className="cases">
             <div className="case-container">
               <div className="case">

@@ -27,9 +27,9 @@ const Security = () => {
 
             <div className="flexColStart hero-des">
               <span>
-                We develop tailored, complex web applications and systems in the
-                form of applications, online services, apps, intranets and
-                extranets.
+                (CCTV, Access Control, Smoke Detectors - [fire detection and
+                alarm system, fire fighting system e.g fm200] Remote Gate -
+                (access control & automatic gare control), Solar Systems
               </span>
             </div>
           </div>

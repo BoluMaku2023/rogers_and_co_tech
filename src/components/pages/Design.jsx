@@ -26,9 +26,14 @@ const Design = () => {
 
             <div className="flexColStart hero-des">
               <span>
-                We develop tailored, complex web applications and systems in the
-                form of applications, online services, apps, intranets and
-                extranets.
+                The Rogers & Co. design team is dedicated to re-imagining how
+                brands, businesses and organizations are perceived. We
+                specialize in bringing digital identities into the real world.
+                While very diverse, our aesthetic approach often involves a
+                distinct sense of style and design, aiming to combine
+                out-of-the-box design with functionality. Strategically, our
+                work aims to elevate brand offerings by distilling core
+                messaging down to its clearest and freshest visual form.
               </span>
             </div>
           </div>

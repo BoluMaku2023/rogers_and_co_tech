@@ -31,9 +31,18 @@ const Product = () => {
 
             <div className="flexColStart hero-des">
               <span>
-                We develop tailored, complex web applications and systems in the
-                form of applications, online services, apps, intranets and
-                extranets.
+                At Rogers & Co, our Software Product Development department sets
+                the standard for excellence in the industry. Our team of expert
+                developers and designers are dedicated to creating cutting-edge
+                products that solve real-world problems and drive business
+                success. With a focus on user-centered design and the latest
+                technology, we deliver solutions that not only meet, but exceed
+                expectations. Our commitment to innovation and attention to
+                detail ensures that each project is delivered on time, on
+                budget, and with a level of quality that sets us apart. Whether
+                you’re looking to bring a new product to market or enhance an
+                existing one, our team has the skills, experience, and passion
+                to bring your vision to life.
               </span>
             </div>
           </div>

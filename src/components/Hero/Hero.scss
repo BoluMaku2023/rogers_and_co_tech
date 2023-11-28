@@ -68,8 +68,12 @@
   z-index: 1;
   width: 100%;
   display: flex;
+  padding-right: 5%;
+  padding-left: 5%;
+  white-space: pre-wrap;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
   justify-content: center;
 }
 .hero-des > span {

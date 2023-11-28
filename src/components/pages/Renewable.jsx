@@ -20,7 +20,7 @@ const Renewable = () => {
         <div className="paddings innerWidth flexCenter hero-container">
           {/*left side*/}
           <div className="hero-left">
-            <div className="hero-title-w">
+            <div className="hero-title">
               <h1>Renewable Energy</h1>
             </div>
 
@@ -73,11 +73,6 @@ const Renewable = () => {
           </Fade>
           <Slide bottom>
             <p>
-              <b>
-                (CCTV, Access Control, Smoke Detectors - [fire detection and
-                alarm system, fire fighting system e.g fm200] Remote Gate -
-                [access control & automatic gare control, Solar Systems)
-              </b>{" "}
               At our company, we are at the forefront of providing a
               comprehensive suite of sustainable solutions aimed at shaping a
               safer and more environmentally conscious world. Our diverse range

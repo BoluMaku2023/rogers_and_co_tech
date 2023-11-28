@@ -20,7 +20,7 @@ const Wireless = () => {
         <div className="hero-container">
           {/*left side*/}
           <div className="hero-left">
-            <div className="hero-title-w">
+            <div className="hero-title">
               <h1>Wireless LAN Distribution Network</h1>
             </div>
 

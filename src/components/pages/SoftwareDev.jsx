@@ -36,9 +36,22 @@ const SoftwareDev = () => {
 
             <div className="flexColStart hero-des">
               <span>
-                We develop tailored, complex web applications and systems in the
-                form of applications, online services, apps, intranets and
-                extranets.
+                At Rogers & Co, our Software Development team is composed of
+                highly skilled and knowledgeable professionals who are dedicated
+                to delivering innovative software solutions. Our process is
+                guided by Agile methodologies, such as Scrum and Kanban, to
+                ensure flexibility and responsiveness in response to the
+                ever-changing needs of our clients.
+              </span>
+              <span>
+                Our developers have expertise in a variety of programming
+                languages, they also have experience working with both SQL and
+                NoSQL databases, as well as cloud platforms such as AWS and
+                Microsoft Azure. With a focus on user-centered design, we ensure
+                that each solution is not only technically sound, but also easy
+                to use and understand. Our rigorous quality assurance process,
+                including automated and manual testing, guarantees that each
+                project meets the highest standards of excellence.
               </span>
             </div>
           </div>
@@ -98,11 +111,11 @@ const SoftwareDev = () => {
           </Fade>
           <Slide bottom>
             <p>
-              Our web development services cover all aspects of creating and
-              maintaining a website, from planning and design to development and
-              deployment. We use the latest technologies and best practices to
-              build websites that are both fast and responsive, ensuring an
-              optimal user experience.
+              We build web based applications that help businesses and
+              organizations take advantage of the web’s potential to reach and
+              engage users. We build custom web apps that meet specific business
+              needs and integrate seamlessly with existing systems and
+              processes.
             </p>
             <div className="next-img">
               <img src="./img19.png" alt="" />
@@ -113,11 +126,10 @@ const SoftwareDev = () => {
           </Fade>
           <Slide bottom>
             <p>
-              Our web development services cover all aspects of creating and
-              maintaining a website, from planning and design to development and
-              deployment. We use the latest technologies and best practices to
-              build websites that are both fast and responsive, ensuring an
-              optimal user experience.
+              We build both native and cross-platform mobile applications for
+              iOS and Android. We create mobile apps that provide an excellent
+              user experience, are fast and responsive, and are optimized for
+              each platform’s unique requirements.
             </p>
             <div className="next-img">
               <img src="./img24.png" alt="" />
@@ -128,11 +140,11 @@ const SoftwareDev = () => {
           </Fade>
           <Slide bottom>
             <p>
-              Our web development services cover all aspects of creating and
-              maintaining a website, from planning and design to development and
-              deployment. We use the latest technologies and best practices to
-              build websites that are both fast and responsive, ensuring an
-              optimal user experience.
+              Our front-end developers are experts in creating user-friendly and
+              visually stunning interfaces that bring your website or web app to
+              life. We use the latest front-end technologies and techniques to
+              build interfaces that are fast, responsive, and accessible to all
+              users.
             </p>
             <div className="next-img">
               <img src="./img25.png" alt="" />
@@ -143,11 +155,11 @@ const SoftwareDev = () => {
           </Fade>
           <Slide bottom>
             <p>
-              Our web development services cover all aspects of creating and
-              maintaining a website, from planning and design to development and
-              deployment. We use the latest technologies and best practices to
-              build websites that are both fast and responsive, ensuring an
-              optimal user experience.
+              Our back-end development team covers everything from server-side
+              scripting and database development to API creation and
+              integration. Our developers have a deep understanding of the
+              technologies and best practices required to create scalable and
+              secure back-end systems
             </p>
             <div className="next-img">
               <img src="./img26.png" alt="" />
@@ -158,11 +170,11 @@ const SoftwareDev = () => {
           </Fade>
           <Slide bottom>
             <p>
-              Our web development services cover all aspects of creating and
-              maintaining a website, from planning and design to development and
-              deployment. We use the latest technologies and best practices to
-              build websites that are both fast and responsive, ensuring an
-              optimal user experience.
+              Our native apps for iOS and Android provide a truly native
+              experience for users, with full access to the platform’s features
+              and capabilities. We work with you to create apps that meet your
+              specific business requirements and take advantage of the unique
+              features of each platform.
             </p>
             <div className="next-img">
               <img src="./img27.png" alt="" />
@@ -173,11 +185,11 @@ const SoftwareDev = () => {
           </Fade>
           <Slide bottom>
             <p>
-              Our web development services cover all aspects of creating and
-              maintaining a website, from planning and design to development and
-              deployment. We use the latest technologies and best practices to
-              build websites that are both fast and responsive, ensuring an
-              optimal user experience.
+              Our cross-platform development services help businesses and
+              organizations reach users on multiple platforms with a single
+              codebase. We use cross-platform technologies to create apps that
+              are fast, responsive, and provide a consistent user experience
+              across all platforms.
             </p>
             <div className="next-img">
               <img src="./img28.png" alt="" />
